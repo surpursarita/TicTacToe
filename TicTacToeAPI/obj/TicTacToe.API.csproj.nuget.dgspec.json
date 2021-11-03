@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToeAPI\\TicTacToe.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj",
+        "projectName": "TicTacToe.API.Common",
+        "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj",
+        "packagesPath": "C:\\Users\\ssurpur\\.nuget\\packages\\",
+        "outputPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ssurpur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://art01.apttuscloud.io/api/nuget/nuget": {},
+          "https://art01.apttuscloud.io/api/nuget/nugetcore": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    },
+    "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\TicTacToe.API.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\TicTacToe.API.Service.csproj",
+        "projectName": "TicTacToe.API.Service",
+        "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\TicTacToe.API.Service.csproj",
+        "packagesPath": "C:\\Users\\ssurpur\\.nuget\\packages\\",
+        "outputPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ssurpur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://art01.apttuscloud.io/api/nuget/nuget": {},
+          "https://art01.apttuscloud.io/api/nuget/nugetcore": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj": {
+                "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    },
+    "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToeAPI\\TicTacToe.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToeAPI\\TicTacToe.API.csproj",
+        "projectName": "TicTacToe.API",
+        "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToeAPI\\TicTacToe.API.csproj",
+        "packagesPath": "C:\\Users\\ssurpur\\.nuget\\packages\\",
+        "outputPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToeAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ssurpur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://art01.apttuscloud.io/api/nuget/nuget": {},
+          "https://art01.apttuscloud.io/api/nuget/nugetcore": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj": {
+                "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Common\\TicTacToe.API.Common.csproj"
+              },
+              "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\TicTacToe.API.Service.csproj": {
+                "projectPath": "C:\\Saraswati\\Projects\\TicTacToe\\TicTacToe\\TicTacToe.API.Service\\TicTacToe.API.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.AspNetCore.App",
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    }
+  }
+}
